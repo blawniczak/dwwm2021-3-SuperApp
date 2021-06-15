@@ -1,0 +1,26 @@
+Initialiser un projet
+- Être dans le dossier à initialiser avec le terminal
+- commande : git init
+
+Faire un commit
+- Ajouter le(s) fichier(s) à commiter : git add index.html css/style.css 
+- git commit -m "Message expliquant le commit"
+
+Voir l'historique des commit
+- git log
+
+Créer une branche
+- git branch nomDeLaNouvelleBranche
+
+Voir les branches et savoir sur laquelle on est
+- git branch
+
+Changer de branche
+- git checkout nomDeLaBranche
+
+Rapatrier une branche sur une autre 
+- se mettre sur la branche où l'on veut rapatrier ( git checkout brancheDeRapatriement )
+- git merge nomDeLaBrancheARapatrier
+
+Supprimer une branche 
+- git branch -d nomDeLaBrancheASupprimer
