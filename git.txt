@@ -1,3 +1,6 @@
+Dépôt local
+
+
 Initialiser un projet
 - Être dans le dossier à initialiser avec le terminal
 - commande : git init
@@ -24,3 +27,16 @@ Rapatrier une branche sur une autre
 
 Supprimer une branche 
 - git branch -d nomDeLaBrancheASupprimer
+
+
+
+Dépôt distant
+
+Créer un repository sur GitHub
+Récupérer l'url du repository 
+
+Relier le dépôt distant au dépôt local
+- git remote add nomDeLaLiaison url-du-repo (convention : on appelle généralement le remote : origin)
+
+Pousser sur le dépôt distant 
+- git push nomDeLaLiaison nomDeLaBrancheAPousser
